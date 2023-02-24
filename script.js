@@ -17,7 +17,6 @@ function calculate() {
             break
         case '*':
             answerField.textContent = a * b
-
             break
         case '/':
             answer = a / b
@@ -69,4 +68,5 @@ buttons.forEach(button => {
         }
     })
 })
+
 
